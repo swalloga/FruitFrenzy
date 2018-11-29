@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _boa
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("class Tile {\n  constructor(type, x, y, tileSize, context) {\n    this.type = type;\n    this.x = x;\n    this.y = y;\n    this.tileSize = tileSize;\n    this.context = context;\n    this.drawTile(x, y, tileSize);\n  }\n\n  drawTile(x, y, tileSize) {\n    let offset = 2;\n    let width = tileSize - offset;\n    let height = (tileSize - offset)/2;\n\n    this.context.fillStyle = \"white\";\n    this.context.fillRect(x + offset/2, y + offset/2, width, height);\n  }\n}\n\nmodule.exports = Tile;\n\n\n//# sourceURL=webpack:///./lib/tile.js?");
+eval("class Tile {\n  constructor(type, x, y, tileSize, context) {\n    this.type = type;\n    this.x = x;\n    this.y = y;\n    this.tileSize = tileSize;\n    this.context = context;\n    this.drawTile(x, y, tileSize);\n  }\n\n  drawTile(x, y, tileSize) {\n    let offset = 2;\n    let width = tileSize - offset;\n    let height = (tileSize - offset)/2;\n\n    this.context.fillStyle = \"white\";\n    this.context.fillRect(x + offset/2, y + offset/2, width, height);\n    this.context.font = \"12px Indie Flower, Arial\";\n    this.context.textAlign = \"center\";\n    this.context.fillStyle = \"black\";\n    this.context.fillText(this.type, x + width/2, y + height/2);\n  }\n}\n\nmodule.exports = Tile;\n\n\n//# sourceURL=webpack:///./lib/tile.js?");
 
 /***/ }),
 
