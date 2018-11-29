@@ -22,8 +22,8 @@ body {
 canvas {
   width: 500px;
   height: 500px;
-  background-color: #5fe84691;
-  border: 5px solid gray;
+  /* background-color: #5fe84691;
+  border: 5px solid gray; */
 }
 
 button {

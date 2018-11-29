@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/swalloga/FruitFrenzy#readme",
   "dependencies": {
-    "webpack": "^4.26.1",
-    "webpack-cli": "^3.1.2",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.11",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "lodash": "^4.17.11"
   }
 }
