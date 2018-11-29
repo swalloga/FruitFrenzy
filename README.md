@@ -1,6 +1,8 @@
 # Fruit-Frenzy
 Fruit Frenzy is a tile matching game modeled after bejeweled, based on fruits.
-![wireframe]('./images/Fruit_frenzy.png')
+
+
+![wireframe](https://github.com/swalloga/FruitFrenzy/blob/master/images/Fruit_frenzy.png)
 
 
  ### Implementation Timeline
