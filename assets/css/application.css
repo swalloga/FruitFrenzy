@@ -1,4 +1,6 @@
-@import "components/*";
+/* @import "components/*"; */
+/* TODO: webpack include scss?? */
+/* TODO: add reset file */
 
 * {
   font-family: 'Indie Flower', cursive;
