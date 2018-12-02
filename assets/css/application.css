@@ -11,19 +11,32 @@ body {
   background-size: cover;
 }
 
+canvas {
+  width: 400px;
+  height: 400px;
+  display: block;
+  border-radius: 7px;
+}
+
 .game {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .game-controls {
   margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-canvas {
-  width: 400px;
-  height: 400px;
+.player-score {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 button {
