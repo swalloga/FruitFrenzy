@@ -7,6 +7,8 @@
 }
 body {
   width: 100%;
+  background: linear-gradient(to bottom right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
+  background-size: cover;
 }
 
 .game {
@@ -20,10 +22,8 @@ body {
 }
 
 canvas {
-  width: 500px;
-  height: 500px;
-  /* background-color: #5fe84691;
-  border: 5px solid gray; */
+  width: 400px;
+  height: 400px;
 }
 
 button {
