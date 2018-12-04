@@ -1,29 +1,28 @@
 # Fruit-Frenzy
 Fruit Frenzy is a tile matching game modeled after bejeweled, based on fruits.
+Check out the live site [here](http://www.sarahwalloga.com/FruitFrenzy/)!
 
+
+# Functionality
+
+* Players click and drag to swap adjacent items
+* Clusters of three or more fruits will disappear from the game board and add to the players score
+* Players can view their score
+* Players can restart the game
+
+# Wireframe
+This consists of a single page with game board, new game button and contact links.
+
+Links include Github, LinkedIn, AngelList and email.
 
 ![wireframe](https://github.com/swalloga/FruitFrenzy/blob/master/images/Fruit_frenzy.png)
 
 
- ### Implementation Timeline
+# Technologies Used:
 
- #### Day 1:
- * Create basic file structure
- * Set up canvas and game board
-
-
- #### Day 2:
- * Write matching logic
- * Define level thresholds
- * Store different level fruits for each level
-
- | Level 1/Basic | Level 2/Stone Fruit | Level 3/Berries | Level 4/Tropical | Level 5/Upsetting |
- | ------------- | ------------------- | --------------- | ---------------- | ----------------- |
- | Apple | Cherry | Blueberry | Pineapple | Tomato |
- | Banana | Peach | Blackberry | Coconut | Cucumber |
- | Orange | Plum | Raspberry | Kiwi | Avocado |
- | Lemon | | Strawberry | Star Fruit | Eggplant |
- | Watermelon | | | | |
-
- #### Day 3:
- * Style game with fruit icons
+* Javascript
+  * Lodash
+  * JQuery  
+* HTML5
+* Canvas
+* CSS
