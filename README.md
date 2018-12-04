@@ -1,5 +1,5 @@
 # Fruit-Frenzy
-Fruit Frenzy is a tile matching game modeled after bejeweled, based on fruits.
+Fruit Frenzy is a tile matching game modeled on CandyCrush, using fruit instead of candy.
 Check out the live site [here](http://www.sarahwalloga.com/FruitFrenzy/)!
 
 
