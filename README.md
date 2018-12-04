@@ -15,6 +15,8 @@ This consists of a single page with game board, new game button and contact link
 
 Links include Github, LinkedIn, AngelList and email.
 
+![wireframe](https://github.com/swalloga/FruitFrenzy/blob/master/images/ff_wireframe.png)
+
 
 # Technologies Used:
 
