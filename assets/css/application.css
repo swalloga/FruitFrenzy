@@ -5,6 +5,39 @@
 * {
   font-family: 'Indie Flower', cursive;
 }
+
+li {
+  list-style: none;
+}
+i {
+  color: black;
+  margin: 10px;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+}
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 body {
   width: 100%;
   background: linear-gradient(to bottom right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
@@ -24,10 +57,11 @@ canvas {
 }
 
 .game-controls {
-  margin: 0 30px;
+  margin:0 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .player-score {
@@ -41,6 +75,10 @@ button {
   display: block;
   width: 150px;
   font-size: 20px;
+}
+
+button:hover {
+  font-weight: 700;
 }
 
 h1 {
