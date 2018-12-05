@@ -33,7 +33,10 @@ p {
 a:hover {
   color: white;
 }
+
 .contact-icon {
+  width: 50%;
+  margin: 20px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,32 +44,37 @@ a:hover {
 
 body {
   width: 100%;
-  background: linear-gradient(to bottom right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
+  background: linear-gradient(to top right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
   background-size: cover;
+  padding: 25px 15px;
 }
 
 canvas {
   display: block;
   border-radius: 7px;
-  margin: 0 25px;
+  margin: 30px auto;
 }
 
 .game {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
 
 .game-controls {
+  width: 50%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
 .player-score {
-  margin: 40px 0;
+  margin: 25px 0;
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -89,6 +97,11 @@ button:hover {
 
 h1 {
   text-align: center;
-  font-size: 54px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0;
+
+  background: linear-gradient(to right, #f92c0b 0%, #27ec51 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
