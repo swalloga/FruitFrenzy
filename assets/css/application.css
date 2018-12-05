@@ -15,7 +15,7 @@ i {
   margin: 10px;
 }
 
-contact-icon li:hover {
+.contact-icon-item:hover, #cog-icon:hover {
   transform: scale(1.1);
   transition: all .3s ease;
 }
@@ -47,7 +47,7 @@ body {
   width: 100%;
   background: linear-gradient(to top right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
   background-size: cover;
-  padding: 25px 15px;
+  padding: 0;
   margin: 0;
 }
 
@@ -68,11 +68,17 @@ canvas {
 
 .game-controls {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -89,7 +95,8 @@ button {
   font-size: 20px;
   border-radius: 5px;
   border: none;
-  padding: 9px;
+  padding: 8px;
+  height: 40px;
 }
 
 button:hover {
@@ -110,6 +117,7 @@ h1 {
 
 #cog-icon {
   z-index: 5;
+  margin: 15px;
 }
 
 .show {
@@ -124,6 +132,7 @@ h1 {
   z-index: 2;
   position: absolute;
   top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   background-color: #9e9e9ec2;
