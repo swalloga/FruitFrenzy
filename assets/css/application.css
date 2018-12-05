@@ -48,6 +48,7 @@ body {
 canvas {
   display: block;
   border-radius: 7px;
+  margin: 0 25px;
 }
 
 .game {
@@ -58,7 +59,6 @@ canvas {
 }
 
 .game-controls {
-  margin:0 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
