@@ -9,12 +9,13 @@
 li {
   list-style: none;
 }
+
 i {
   color: black;
   margin: 10px;
 }
 
-li:hover {
+contact-icon li:hover {
   transform: scale(1.1);
   transition: all .3s ease;
 }
@@ -56,6 +57,7 @@ canvas {
 }
 
 .game {
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -64,7 +66,7 @@ canvas {
 }
 
 .game-controls {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +76,7 @@ canvas {
 }
 
 .player-score {
-  margin: 25px 0;
+  padding: 0 40px;
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -100,8 +102,59 @@ h1 {
   font-size: 60px;
   font-weight: 900;
   margin: 0;
-
   background: linear-gradient(to right, #f92c0b 0%, #27ec51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#cog-icon {
+  z-index: 5;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.instruction-div {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: calc(100% + 16px);
+  background-color: #9e9e9ec2;
+}
+
+.instruction-detail {
+  z-index: 3;
+  display: inherit;
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.instruction-detail > h3 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+
+.instruction-list {
+  list-style: circle outside none;
+  color: black;
+  font-size: 18px;
+}
+
+.instruction-list li {
+  list-style: circle outside none;
+  margin: 10px;
 }

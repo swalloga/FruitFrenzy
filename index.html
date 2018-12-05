@@ -10,22 +10,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
   <body>
+    <div id="instruction-div" class="instruction-div hide">
+      <div class="instruction-detail">
+        <h3>How to Play:</h3>
+        <ul class="instruction-list">
+          <li>The goal of the game is to line up three or more fruits</li>
+          <li>Click and drag fruits to swap with adjacent fruits to create clusters
+            of 3 or more</li>
+          <li>You can only swap fruits if it creates a new cluster!</li>
+          <li>Every time you get a match, those fruits will magically disappear
+            from the game board. Where do they go? Maybe they're sangria now?</li>
+          <li>Keep playing until you run out of valid swaps</li>
+          <li>Have fun!!!</li>
+        </ul>
+      </div>
+    </div>
+    <div class="game-controls" >
+      <div class="player-score">
+      </div>
+      <button type="button" id="play-button" >New Game!</button>
+      <i id="cog-icon" class="fas fa-cog fa-2x" style="color: white"></i>
+    </div>
     <h1 class="title" >Fruit Frenzy</h1>
     <div class="game">
-      <div class="game-controls" >
-        <div class="player-score"></div>
-        <button type="button" id="play-button" >New Game!</button>
-        </div>
         <canvas id="myCanvas" width="390" height="390"></canvas>
+    </div>
+    <div class="contact-section">
+      <p><a href="www.sarahwalloga.com">Sarah Walloga</a></p>
+      <div class="contact-icon">
+        <li><a href="https://github.com/swalloga"><i class="fab fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sarahwalloga/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://angel.co/sarah-walloga?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar"><i class="fab fa-angellist fa-2x"></i></a></li>
+        <li><a href="mailto:swalloga@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
       </div>
-      <div class="contact-section">
-        <p><a href="www.sarahwalloga.com">Sarah Walloga</a></p>
-        <div class="contact-icon">
-          <li><a href="https://github.com/swalloga"><i class="fab fa-github fa-2x"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/sarahwalloga/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-          <li><a href="https://angel.co/sarah-walloga?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar"><i class="fab fa-angellist fa-2x"></i></a></li>
-          <li><a href="mailto:swalloga@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-        </div>
     </div>
     <script type="text/javascript" src="./dist/bundle.js"></script>
   </body>
