@@ -1,5 +1,5 @@
 # Fruit-Frenzy
-Fruit Frenzy is a tile matching game modeled on CandyCrush, using fruit instead of candy. Players can drag and drop fruits that are adjacent, but only if doing so creates a new cluster of three of more. Every time a swap is executed, an algorithm looks through the entire game board to find and remove new clusters(the fun never ends!).
+Fruit Frenzy is a tile matching game modeled on CandyCrush, using fruit instead of candy. Players can drag and drop fruits that are adjacent, but only if doing so creates a new cluster of three or more. Every time a swap is executed, an algorithm looks through the entire game board to find and remove new clusters(the fun never ends!).
 
 Check out the live site [here](http://www.sarahwalloga.com/FruitFrenzy/)!
 
@@ -32,7 +32,7 @@ Links include Github, LinkedIn, AngelList and email.
 # Challenges
 As soon as the game board is rendered, it is filled with new, random fruit tiles. A function is immediately called to identify clusters of three or more tiles of the same fruit type. Cluster indices are identified and then each tile that is a part of a cluster is replaced with a null type tile and the canvas is cleared at that position. To fill the grid with new tiles after clusters are removed, I first iterate through the top row and replace any null tiles with new random fruit tiles. Then I iterate through the rest of the multidimensional array looking for null type tiles. If a the tile below the current tile is null type, I update the position of the current tile to be one row lower. This continues until the board contains no null type tiles.
 
-```
+```javascript
 shiftTiles() {
   // while the board includes null,
   let gridHasNull = this.grid.flat().some((tile) => !tile.type);
