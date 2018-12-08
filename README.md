@@ -1,5 +1,5 @@
 # Fruit-Frenzy
-Fruit Frenzy is a tile matching game modeled on CandyCrush, using fruit instead of candy. Players can drag and drop fruits that are adjacent, but only if doing so creates a new cluster of three or more. Every time a swap is executed, an algorithm looks through the entire game board to find and remove new clusters(the fun never ends!).
+Fruit Frenzy is a tile matching game modeled on Candy Crush, using fruit instead of candy. Players can drag and drop fruits that are adjacent, but only if doing so creates a new cluster of three or more. Every time a swap is executed, an algorithm looks through the entire game board to find and remove new clusters(the fun never ends!).
 
 Check out the live site [here](http://www.sarahwalloga.com/FruitFrenzy/)!
 
