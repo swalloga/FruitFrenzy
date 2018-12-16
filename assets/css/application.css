@@ -37,8 +37,6 @@ a:hover {
 }
 
 .contact-icon {
-  min-width: 500px;
-  width: 50%;
   margin: 0 auto 20px auto;
   display: flex;
   flex-direction: row;
@@ -59,22 +57,24 @@ canvas {
   margin: 15px auto;
 }
 
+.game-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .game {
   width: 400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 40px;
 }
 
 .game-controls {
-  width: 50%;
-  min-width: 500px;
-  margin: 10px auto 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -82,6 +82,7 @@ canvas {
 .game-buttons {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -95,7 +96,8 @@ canvas {
 
 button {
   display: block;
-  width: 150px;
+  width: 80%;
+  min-width: 100px;
   font-size: 20px;
   border-radius: 5px;
   border: none;
@@ -114,7 +116,7 @@ h1 {
   text-align: center;
   font-size: 60px;
   font-weight: 900;
-  margin: 0;
+  margin: 25px 0;
   background: linear-gradient(to right, #f92c0b 0%, #27ec51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
