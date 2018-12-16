@@ -58,7 +58,6 @@ shiftTiles() {
           let tileBelow = this.grid[r + 1][c];
           // check if the tile below has type null
           if (!tileBelow.type) {
-            this.incrementTile(r, c);
             // change the position of that tile to be one row lower
             this.grid[r + 1][c] = currentTile;
             currentTile.r = r + 1;
