@@ -1,6 +1,3 @@
-/* @import "components/*"; */
-/* TODO: webpack include scss?? */
-/* TODO: add reset file */
 
 * {
   font-family: 'Indie Flower', cursive;
@@ -45,7 +42,7 @@ a:hover {
 
 body {
   width: 100%;
-  background: linear-gradient(to top right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
+  background:linear-gradient(to top right, #fff 0%, #27e1ec 100%) no-repeat center fixed;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -92,6 +89,15 @@ canvas {
   font-size: 36px;
   font-weight: 900;
   color: black;
+}
+
+.level {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+  width: 100%;
+  padding-left: 40px;
 }
 
 button {
