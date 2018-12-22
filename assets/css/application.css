@@ -152,24 +152,20 @@ h1 {
 }
 
 .level-up {
-  z-index: 2;
+  z-index: 6;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   background-color: #5dd614;
+  color: white;
 }
 
 #level-message {
   margin: 30% auto;
-  color: white;
   font-size: 48px;
   text-align: center;
-}
-
-.level-up > p {
-  color: white;
 }
 
 .instruction-detail {
