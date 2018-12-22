@@ -162,10 +162,18 @@ h1 {
   color: white;
 }
 
+@keyframes level-up {
+  0%   {font-size: 10px}
+  100% {font-size: 90px; transform: rotate(360deg)}
+}
+
 #level-message {
   margin: 30% auto;
   font-size: 48px;
   text-align: center;
+  animation-name: level-up;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .instruction-detail {
