@@ -180,11 +180,12 @@ h1 {
   z-index: 3;
   display: inherit;
   width: 60%;
+  max-width: 500px;
   height: 60%;
   margin: auto;
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 25%;
+  left: calc(50% - 250px);
   background: white;
   border-radius: 6px;
   padding: 10px;
